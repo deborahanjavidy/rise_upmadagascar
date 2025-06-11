@@ -1,0 +1,553 @@
+/* Base Styles */ 
+.body{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+    background-color: rgba(240, 235, 235, 0.123);
+} 
+.fixedheader {
+    position: fixed !important;
+    background-color: white;
+    width: 100%;
+    z-index: 999;  /* Navbar en haut */
+}
+
+.head {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgb(5, 5, 146);
+    z-index: 998;  /* Entête juste en dessous de la navbar */
+}
+
+.info {
+    background-color: rgb(5, 5, 146);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 998;  /* À même hauteur que l'entête */
+}
+
+.info i {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.bluepart {
+    background-color: rgb(5, 36, 80);
+    width: 100%;
+    z-index: 997;  /* Juste en dessous de l'entête et de l'information */
+}
+
+.description {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    z-index: 997;
+}
+
+
+.sectionOne{
+    
+    height: 600px;
+    margin: 5px;
+    border-radius: 15px;
+    margin-top: 20px !important;
+    background-color: black;
+}
+
+#morepaddinginrow{
+    padding: 25px;
+    margin: 35px;
+}
+
+.bluelink{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 123, 255, 0.511);
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 14px;
+
+}
+
+.bluelink:hover{
+    cursor: pointer;
+    background-color: rgb(11, 11, 179);
+    padding: 17px;
+}
+
+.sectionTwo{
+    padding: 25px;
+    margin: 25px;
+    background-image: url('photo/epis.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .progressbar{
+        float: right;
+        margin-top: 100px !important;
+        width: 700px;
+        height: 400px;
+        border-radius: 10px;
+        opacity: 0.7;
+    }
+}
+
+.aboutlink{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 300px;
+    font-size: 15px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.aboutlink:hover{
+    cursor: pointer;
+    background-color: rgb(4, 93, 4);
+    padding: 17px;
+    opacity: 1;
+}
+
+.morebottom{
+    margin-top: 65px !important;
+    margin: 10px;
+    padding: 10px;
+}
+.greygradient_background{
+    background-color: rgba(215, 212, 205, 0.295);
+    
+}
+
+.border_topOrange{
+    border-top: 8px solid orange;
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0;
+}
+.contact_features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact_featuresOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.name{
+    margin-left: 15px !important;
+}
+.email{
+    margin-left: 16px !important;
+}
+label{
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    margin: 5px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+
+.features{
+    padding: 15px;
+    margin: 15px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+.messages{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+button{
+    position: absolute;
+    bottom: -80px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+
+#icones{
+    color: orange;
+    font-size: 100px;
+    margin-left: 20px;
+}
+.headphones{
+    text-decoration: none !important;
+    color: orange;
+    font-size: 16px;
+    font-weight: 600;
+}
+.watch{
+    text-decoration: none !important;
+    color: orange;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.RDV{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 15px;
+    a{
+        margin-left: -24px;
+    }
+}
+
+.photoB{
+    margin-top: 15px;
+    width: 500px;
+    height: 400px;
+}
+.footer{
+    margin-top: 45px;
+    border-top: 8px solid rgb(0, 204, 255);
+    background-color: rgba(3, 3, 49, 0.866);
+    width: 100%;
+}
+.social_media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    #facebook{
+        color: white;
+    }
+    #facebook:hover{
+        cursor: pointer;
+        color: rgb(0, 195, 255);
+        padding-top: 5px;
+    }
+    #instagram{
+        color: white;
+    }
+    #instagram:hover{
+        cursor: pointer;
+        color: rgb(208, 0, 255);
+        padding-top: 5px;
+    }
+    #linkedin{
+        color: white;
+    }
+    #linkedin:hover{
+        cursor: pointer;
+        color: rgb(81, 0, 255);
+        padding-top: 5px;
+    }
+    
+}
+
+.ord li{
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+
+.media{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.part{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 15px;
+    img{
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.col_right, .col_left{
+    border: 1px solid grey;
+}
+
+.hr{
+    width: 560px;
+    border: 3px solid blue;
+    float: right;
+}
+.partrow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel {
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} /* Ajustez la valeur en fonction de la hauteur de la navbar et de l'entête */
+
+
+/* Core Styling for the Carousel */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.6s ease;
+  }
+  
+  .carousel-item.active {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajustez cette valeur selon vos besoins */
+    object-fit: cover; /* Pour s'assurer que les images remplissent l'espace de manière uniforme */
+  }
+  
+  /* Control Styling */
+  .carousel-control-left,
+  .carousel-control-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: green;
+    cursor: pointer;
+    font-size: 2em;
+    z-index: 1;
+  }
+  
+  .carousel-control-left {
+    left: 10px;
+  }
+  
+  .carousel-control-right {
+    right: 10px;
+  }
+  
+  /* Indicator Styling */
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel-indicators li {
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    width: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators .active {
+    background-color: red;
+  }
+
+  .first_caroussel{
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+    color: rgb(56, 54, 54);
+    margin-top: 100px;
+    
+
+  }
+  .second_caroussel{
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+    color: red;
+    margin-top: 100px;
+  }
+    .third_caroussel{
+        text-align: center;
+        font-family: cursive;
+        font-size: 24px;
+        color: red;
+        margin-top: 100px;
+    }
+  #first{
+    background-image: url('photo/r.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+
+  }
+  #second{
+    background-image: url('photo/cone.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #third{
+    background-image: url('photo/d.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .encercled{
+    box-shadow: 0px 5px 0px 5px rgba(5, 233, 5, 0.482);
+    display: flex;
+    justify-content: center;
+    padding-inline: 10px;
+    border-radius: 15px;
+    background-color: rgba(219, 212, 212, 0.466);
+    padding: 15px;
+
+    .pdes{
+        font-size: 15px;
+        color: grey;
+        font-family: cursive;
+        padding: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+}
+.encercled:hover{
+    .pdes{
+        font-size: 15px;
+        color: green;
+        font-family: cursive;
+        padding: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+
+.maquette{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.maquette:hover{
+    padding: 5px;
+}
+
+.real{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.real:hover{
+    padding: 5px;
+}
+
+
+.ressource{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.ressource:hover{
+    padding: 5px;
+}
+
+
+.mia{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.mia:hover{
+    padding: 5px;
+}
+
+#marg{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+#focusOne{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#focusTwo{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+/* Définir l'animation */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Appliquer l'animation aux paragraphes à l'intérieur des sections focus */
+#focusOne p {
+    animation: slideInLeft 6s ease-in-out;
+    padding: 15px;
+}
+#focusTwo p{
+    animation: slideInLeft 3s ease-in-out;
+    padding: 15px;
+}
+
+
+
+  
+
+  
+  
+
+
